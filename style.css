@@ -1,0 +1,503 @@
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+
+}
+.center{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bold{
+    font-weight: bold;
+}
+
+.m-2 {
+    margin: 10px;
+}
+.container{
+    width: 948px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.rougetitle{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+.fontminmini{
+    font-size: 11px;
+}
+.fontmini{
+    font-size: 13px;
+    color: black;
+    font-weight: lighter;
+
+}
+.fonttitle{
+    font-size: 18px;
+    color: black;
+
+}
+.font-xl{
+    font-size: 20px;
+    color: black;
+    margin-top: 0;
+}
+.noir{
+    color: black;
+}
+.lien{
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+.icone{
+    width: 25px;
+    height: auto;
+}
+.blanc{
+    color: white;
+}
+.maj{
+    text-transform: uppercase;
+}
+/*########TEXTUEL############*/
+.navbar{
+    padding-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logohm{
+    margin-bottom: 2vh;
+}
+.information{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.mainbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex:1;
+}
+.mainBarChoice{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.elt{
+    width: 100vw;
+    display: flex;
+    justify-content: center ;
+}
+
+
+.mainbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.search{
+    width: 12vw;
+    margin-right: 2vw;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-bottom: black 2px solid;
+
+
+}
+.bouttonBN { /*Blanc(fond) et écriture noir*/
+    background-color: white;
+
+    padding: 10px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+
+}
+.bouttonNB2{
+    color: white;
+    background-color: #212121;
+    border : none ;
+    padding: 6px;
+
+
+}
+
+
+.bouttonNB{
+    color: white;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+
+}
+.boutonCatégories{
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px black solid;
+    margin-right: 20px;
+}
+
+.bouttonTB{ /*transpareent(fond) et écriture noir*/
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+
+    font-weight: bold;
+    background-color: #F1EBDF;
+    border: black 1px solid;
+}
+.font-xxl{
+    font-size: 30px;
+
+}
+.boutton{
+    height: 50px;
+    border: black 2px solid;
+}
+.searchvide{
+    width: 12vw;
+}
+.icone{
+    width: 25px;
+    height: 25px;
+}
+.espaceCLient{
+    width: 16vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.boutton{
+    border: none;
+    background-color: white;
+}
+.promotionHeader{
+    padding-right: 10vw;
+    padding-left: 10vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between   ;
+    align-items: center;
+}
+.alignement{
+    width: 300px;
+
+    display: flex;
+    justify-content: center;
+}
+.womenLyingDown{
+    background-image: url("projethm/femmeAlonge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 616px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.news{
+    width: 948px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 30px;
+
+}
+.preview{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+
+.annonce{
+    height: 410px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+
+}
+
+.annonces {
+    width: 948px;
+    display: flex;
+    flex-direction: row;
+    align-items: centeR;
+    margin-bottom: 30px;
+}
+.imageAnnonce{
+    height: 342px;
+    width: 229px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.border{
+    margin-right: 10px;
+}
+.hmgoepprod3{    background-image: url("projethm/hmgoepprod (3).jpeg")}
+.hmgoepprod4{    background-image: url("projethm/hmgoepprod (4).jpeg");}
+.hmgoepprod5{background-image: url("projethm/hmgoepprod (5).jpeg")}
+.hmgoepprod6{    background-image: url("projethm/hmgoepprod (6).jpeg");}
+
+
+
+.studio{
+    width: 948px;
+    height: 632px;
+    background-image: url("projethm/FemmeFOndJaune.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.showBuy{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reduction{
+    width: 100%;
+    height: 150px;
+    background-color: #F1EBDF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.membre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.reduction{display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dobbleImage{
+background-image: url("projethm/5088B-3x2-the-new-cabin-chic.jpg");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    width: 948px;
+    height: 633px;
+}
+
+.manteau{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+.automneOutfit{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center ;
+}
+.popular{
+    width: 948px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.articles{display: flex;
+flex-direction: column;
+align-items: center;}
+
+.vetementsNoirs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vetement10201{background-image: url("projethm/10201.jpeg");}
+.vetement10202{background-image: url("projethm/10202.jpeg");}
+.vetement10213{background-image: url("projethm/10213.jpeg");}
+.vetement10215{background-image: url("projethm/10215.jpeg");}
+.vetement10216{background-image: url("projethm/10216.jpeg");}
+.vetement10217{background-image: url("projethm/10217.jpeg");}
+.vetement10230{background-image: url("projethm/10230.jpeg");}
+.vetement10231{background-image: url("projethm/10231.jpeg");}
+
+
+.imageVetement{
+    width: 159px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.halloween{
+    background-image: url("projethm/lune.png");
+    background-position: center;
+    width: 948px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+.sdb{
+    background-image: url("projethm/7058B-3x2-hotel-style-bathroom-decor-towels.jpg");
+    width: 948px;
+    height: 630px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.member{
+    width: 948px;
+    height: 150px;
+    background-color: #F1EBDF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bracelet{
+    background-image: url("projethm/Recalled_1163609001-prod-recall-3x2.jpg");
+    background-size: cover;
+    width: 948px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.magazine{
+    height: 300 px;
+    background-color:#F1EBDF ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-bottom: 7vh;
+
+}
+.magazinePHotos{
+    width: 948px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.imageMagazine{
+    width: 286px;
+    height: 210px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.eltMagazine{
+    display: flex;
+    flex-direction: column;
+
+}
+.blancMagazine{
+    margin-top: 0;
+    width: 286px;
+    height: 170px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finalBar{
+    background-color: #E4E4E4;
+    width: 100vw;
+    height: 80vh;
+    padding-top: 50px;
+}
+.grille{
+    width: 980px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr ;
+}
+.col1{
+    grid-column-start: 1;
+
+}
+.col2 {
+    grid-column-start: 2;
+}
+.col3 {
+    grid-column-start: 3;
+}
+.col4 {
+    grid-column-start: 4;
+}
+.align-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.lien:hover{
+    text-decoration: underline;
+}
