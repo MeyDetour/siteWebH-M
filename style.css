@@ -83,6 +83,11 @@ html,body{
 .logohm{
     margin-bottom: 2vh;
 }
+.logoReseaux{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
 .information{
     width: 25%;
     display: flex;
@@ -101,7 +106,7 @@ html,body{
     flex:1;
 }
 .mainBarChoice{
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -429,7 +434,7 @@ align-items: center;}
     margin-bottom: 30px;
 }
 .magazine{
-    height: 300 px;
+    height: 30%;
     background-color:#F1EBDF ;
     display: flex;
     flex-direction: column;
@@ -500,4 +505,9 @@ align-items: center;}
 }
 .lien:hover{
     text-decoration: underline;
+}
+.réseaux{
+    display: flex;
+    flex-direction: row;
+
 }
